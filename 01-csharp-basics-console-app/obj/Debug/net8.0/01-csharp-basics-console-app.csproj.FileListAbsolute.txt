@@ -1,0 +1,15 @@
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\bin\Debug\net8.0\01-csharp-basics-console-app.exe
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\bin\Debug\net8.0\01-csharp-basics-console-app.deps.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\bin\Debug\net8.0\01-csharp-basics-console-app.runtimeconfig.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\bin\Debug\net8.0\01-csharp-basics-console-app.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\bin\Debug\net8.0\01-csharp-basics-console-app.pdb
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.AssemblyInfoInputs.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.AssemblyInfo.cs
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.csproj.CoreCompileInputs.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.sourcelink.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\refint\01-csharp-basics-console-app.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.pdb
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\01-csharp-basics-console-app.genruntimeconfig.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\01-csharp-basics-console-app\obj\Debug\net8.0\ref\01-csharp-basics-console-app.dll

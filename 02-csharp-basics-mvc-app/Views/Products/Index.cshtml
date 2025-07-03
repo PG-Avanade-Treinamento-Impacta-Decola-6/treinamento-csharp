@@ -1,0 +1,7 @@
+﻿<h1>Products</h1>
+<hr/>
+<ul>
+    @foreach (string product in (List<string>)ViewData["products"]!) {
+        <li>@product</li>
+    }
+</ul>

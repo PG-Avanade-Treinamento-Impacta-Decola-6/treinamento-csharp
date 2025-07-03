@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-csharp-basics-console-app", "01-csharp-basics-console-app\01-csharp-basics-console-app.csproj", "{197C18DF-7923-44FF-A312-4249CD7C3DD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-csharp-basics-mvc-app", "02-csharp-basics-mvc-app\02-csharp-basics-mvc-app.csproj", "{1835B729-DC34-4CC4-AB93-37AA675862D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{197C18DF-7923-44FF-A312-4249CD7C3DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{197C18DF-7923-44FF-A312-4249CD7C3DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{197C18DF-7923-44FF-A312-4249CD7C3DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1835B729-DC34-4CC4-AB93-37AA675862D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1835B729-DC34-4CC4-AB93-37AA675862D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1835B729-DC34-4CC4-AB93-37AA675862D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1835B729-DC34-4CC4-AB93-37AA675862D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
