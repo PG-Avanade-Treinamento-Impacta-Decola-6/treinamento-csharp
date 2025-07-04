@@ -1,0 +1,15 @@
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.AssemblyInfoInputs.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.AssemblyInfo.cs
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.csproj.CoreCompileInputs.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.sourcelink.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\bin\Debug\net8.0\04-caixa-eletronico-console-app-mvc.exe
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\bin\Debug\net8.0\04-caixa-eletronico-console-app-mvc.deps.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\bin\Debug\net8.0\04-caixa-eletronico-console-app-mvc.runtimeconfig.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\bin\Debug\net8.0\04-caixa-eletronico-console-app-mvc.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\bin\Debug\net8.0\04-caixa-eletronico-console-app-mvc.pdb
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\refint\04-caixa-eletronico-console-app-mvc.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.pdb
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\04-caixa-eletronico-console-app-mvc.genruntimeconfig.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\04-caixa-eletronico-console-app-mvc\obj\Debug\net8.0\ref\04-caixa-eletronico-console-app-mvc.dll
