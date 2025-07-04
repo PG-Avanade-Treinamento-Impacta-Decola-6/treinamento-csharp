@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _04_caixa_eletronico_console_app_mvc.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,12 +28,22 @@ public class AccountsView
         _messages.Clear();
     }
 
-    public string PromptAccountMenu(decimal balance)
+    public string PromptUnauthenticatedMenu()
+    {
+        Console.WriteLine("\n1 - Acessar Conta");
+        Console.WriteLine("2 - Criar Conta");
+        Console.WriteLine("3 - Listar contas");
+        Console.WriteLine("4 - Sair");
+
+        return Console.ReadLine()!;
+    }
+
+    public string PromptAuthenticatedMenu(decimal balance)
     {
         Console.WriteLine("\n1 - Consultar Saldo");
         Console.WriteLine("2 - Realizar Depósito");
         Console.WriteLine("3 - Realizar Saque");
-        Console.WriteLine("4 - Sair");
+        Console.WriteLine("4 - Sair da Conta");
         Console.Write("\n> ");
         
         return Console.ReadLine()!;
@@ -44,10 +55,7 @@ public class AccountsView
 
         while (true) {
             Console.Clear();
-            if (message != null)
-            {
-                Console.WriteLine($"\n{message}");
-            }
+            if (message != null) Console.WriteLine($"\n{message}");
             
             DisplayEnqueuedMessages();
             Console.Write("\n> ");
@@ -62,5 +70,39 @@ public class AccountsView
         }
 
         return parsedValue;
+    }
+
+    public int PromptInt(string message)
+    {
+        int parsedValue;
+
+        while (true)
+        {
+            Console.Clear();
+            if (message != null) Console.WriteLine($"\n{message}");
+
+            DisplayEnqueuedMessages();
+            Console.Write("\n> ");
+
+            if (!int.TryParse(Console.ReadLine(), out parsedValue))
+            {
+                EnqueueMessage("Valor digitado é inválido. Por favor, tente novamente.");
+                continue;
+            }
+
+            break;
+        }
+
+        return parsedValue;
+    }
+
+    public string PromptString(string message)
+    {
+        Console.Clear();
+        if (message != null) Console.WriteLine($"\n{message}");
+
+        DisplayEnqueuedMessages();
+        Console.Write("\n> ");
+        return Console.ReadLine()!;
     }
 }

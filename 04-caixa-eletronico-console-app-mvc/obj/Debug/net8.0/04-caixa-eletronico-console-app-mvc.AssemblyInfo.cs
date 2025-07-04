@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("04-caixa-eletronico-console-app-mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa881d9616300db4d35a62cf09fcb4fc4b630fcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e5d74cc46e5f251e50b8077f56154c0ef62df12")]
 [assembly: System.Reflection.AssemblyProductAttribute("04-caixa-eletronico-console-app-mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("04-caixa-eletronico-console-app-mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

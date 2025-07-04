@@ -9,10 +9,14 @@ using System.Threading.Tasks;
 
 public class Account
 {
+    public int IdNumber { get; private set; }
+    public string OwnerName { get; private set; }
     public decimal Balance { get; private set; }
 
-    public Account(decimal startingBalance = 1500m)
+    public Account(int idNumber, string ownerName, decimal startingBalance = 1500m)
     {
+        IdNumber = idNumber;
+        OwnerName = ownerName;
         Balance = startingBalance;
     }
 
