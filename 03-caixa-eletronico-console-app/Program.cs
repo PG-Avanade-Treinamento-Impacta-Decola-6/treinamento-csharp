@@ -1,41 +1,41 @@
-﻿
-using System.Threading.Tasks.Dataflow;
+﻿using _03_caixa_eletronico_console_app;
+using _03_caixa_eletronico_console_app.Business;
 
-decimal accountBalance = 1500.0m;
+AccountService accountService = new AccountService();
 
-bool menuCtFlagExit = false;
-List<string> messages = new List<string>() {
+ProgramData.messages.AddRange([
     "Bem vindo ao MINI Caixa Eletrônico, usuário!",
-    $"Saldo inicial: { accountBalance.ToString("C") }R$"
-}; 
+    $"Seu saldo inicial é de { accountService.GetAccountBalance().ToString("F2") }R$."
+]);
 
-while (!menuCtFlagExit) {
+while (!ProgramData.menuCtFlagExit) {
     Console.Clear();
     Console.WriteLine("MINI Caixa - Console");
 
-    foreach (string message in messages) {
+    foreach (string message in ProgramData.messages) {
         Console.WriteLine($"\t- {message}");
     }
-    messages.Clear();
+    ProgramData.messages.Clear();
 
     Console.WriteLine("\n1 - Consultar Saldo");
     Console.WriteLine("2 - Realizar Depósito");
     Console.WriteLine("3 - Realizar Saque");
     Console.WriteLine("4 - Sair");
-
     Console.Write("\n> ");
 
-    string userOptionInput = Console.ReadLine();
+    string userOptionInput = Console.ReadLine()!;
 
     switch (userOptionInput) {
-        case "1": break;
+        case "1":
+            ProgramData.messages.Add($"Seu saldo é de {accountService.GetAccountBalance().ToString("F2")}R$.");
+            break;
         case "2": break;
         case "3": break;
         case "4":
-            menuCtFlagExit = true;
+            ProgramData.menuCtFlagExit = true;
             break;
         default:
-            messages.Add("Opção inválida.");
+            ProgramData.messages.Add("Opção inválida.");
             break;
     }
 }
