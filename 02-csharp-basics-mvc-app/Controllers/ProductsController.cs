@@ -16,9 +16,7 @@ public class ProductsController : Controller
             "Manga"
         };
 
-        ViewData["products"] = products;
-
-        return View();
+        return View(products);
 
     }
 }
