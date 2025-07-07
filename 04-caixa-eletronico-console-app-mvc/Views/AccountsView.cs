@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,22 +10,13 @@ namespace _04_caixa_eletronico_console_app_mvc.Views;
 
 public class AccountsView
 {
-    private static readonly List<string> _messages = new() {
-        "Bem vindo ao MINI Caixa Eletrônico, usuário!",
-        //$"Seu saldo inicial é de { accountService.GetAccountBalance().ToString("F2") }R$."
-    };
+    private static readonly List<string> _messages = new() { "Bem vindo ao MINI Caixa Eletrônico, usuário!" };
 
-    public static void EnqueueMessage(string message)
+    public static void EnqueueMessage(string message) => _messages.Add(message);
+
+    public void DisplayEnqueuedMessages()
     {
-        _messages.Add(message);
-    }
-
-    public void DisplayEnqueuedMessages() {
-        foreach (string message in _messages)
-        {
-            Console.WriteLine($"\t- {message}");
-        }
-
+        foreach (string message in _messages) Console.WriteLine($"\t- {message}");
         _messages.Clear();
     }
 

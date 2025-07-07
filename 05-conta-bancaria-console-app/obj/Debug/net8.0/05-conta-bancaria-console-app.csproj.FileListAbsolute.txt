@@ -1,0 +1,15 @@
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\bin\Debug\net8.0\05-conta-bancaria-console-app.exe
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\bin\Debug\net8.0\05-conta-bancaria-console-app.deps.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\bin\Debug\net8.0\05-conta-bancaria-console-app.runtimeconfig.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\bin\Debug\net8.0\05-conta-bancaria-console-app.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\bin\Debug\net8.0\05-conta-bancaria-console-app.pdb
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.AssemblyInfoInputs.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.AssemblyInfo.cs
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.csproj.CoreCompileInputs.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.sourcelink.json
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\refint\05-conta-bancaria-console-app.dll
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.pdb
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\05-conta-bancaria-console-app.genruntimeconfig.cache
+C:\Users\p.ghiotti.martins\development\workspace\impacta\treinamento-csharp\05-conta-bancaria-console-app\obj\Debug\net8.0\ref\05-conta-bancaria-console-app.dll

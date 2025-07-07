@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01-csharp-basics-console-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa881d9616300db4d35a62cf09fcb4fc4b630fcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8be4ffadb6e93af9f6b5e8a9347da23975889aac")]
 [assembly: System.Reflection.AssemblyProductAttribute("01-csharp-basics-console-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01-csharp-basics-console-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
