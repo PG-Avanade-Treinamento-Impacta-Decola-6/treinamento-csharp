@@ -1,17 +1,21 @@
 ﻿using _05_conta_bancaria_console_app.Models;
 
-SavingsAccount savings = new ("0101", "Sayvin", .5m);
-CheckingAccount checking = new ("0201", "Checky");
+var _checkingAccount = new CheckingAccount("0201", "Checky");
+
+List<Account> accounts = new() {
+    new SavingsAccount("0101", "Sayvin", .5m),
+    _checkingAccount
+};
+
+List<ITaxable> taxables = new() {
+    new LifeInsurance(),
+    _checkingAccount
+};
 
 Console.WriteLine("\nBem vindo ao banco MINI!");
 
-Console.WriteLine("\nMovimentações com conta conta corrente (CheckingAccount):");
-checking.DisplayBalance();
-checking.MakeDeposit(500);
-checking.DisplayBalance();
-
-Console.WriteLine("\nMovimentações com conta poupança (SavingsAccount):");
-savings.DisplayBalance();
-savings.MakeDeposit(500);
-savings.DisplayBalance();
-savings.ApplyInterest();
+foreach (ITaxable taxable in taxables)
+{
+    Console.WriteLine($"\n{taxable.GetType()}");
+    Console.WriteLine($"Imposto a ser cobrado é {taxable.CalculateTax():F2} R$.");
+}

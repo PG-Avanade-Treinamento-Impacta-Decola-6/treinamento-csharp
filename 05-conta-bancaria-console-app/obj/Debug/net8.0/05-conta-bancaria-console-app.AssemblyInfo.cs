@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("05-conta-bancaria-console-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8be4ffadb6e93af9f6b5e8a9347da23975889aac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f0f8e3315eedbe46f5cc9a406dafc8f4e4f6bd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("05-conta-bancaria-console-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("05-conta-bancaria-console-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

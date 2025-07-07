@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _05_conta_bancaria_console_app.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,23 +24,23 @@ public abstract class Account
     {
         if (value <= 0)
         {
-            throw new ArgumentOutOfRangeException($"Valor inválido para depósito.");
+            throw new ArgumentOutOfRangeException(nameof(value), $"Valor inválido para depósito. Deve ser maior que 0.");
         }
 
         _balance += value;
         Console.WriteLine("Depósito realizado com sucesso.");
     }
 
-    public void MakeWithdrawal(decimal value)
+    public virtual void MakeWithdrawal(decimal value)
     {
         if (value <= 0)
         {
-            throw new ArgumentOutOfRangeException($"Valor inválido para depósito.");
+            throw new ArgumentOutOfRangeException(nameof(value), $"Valor inválido para depósito. Deve ser maior que 0.");
         }
 
         if (value > _balance)
         {
-            throw new ArgumentException($"Saldo insuficiente.");
+            throw new InsufficientBalanceException();
         }
 
         _balance -= value;
