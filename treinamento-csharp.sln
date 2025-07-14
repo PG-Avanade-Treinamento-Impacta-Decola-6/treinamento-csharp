@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-caixa-eletronico-console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-conta-bancaria-console-app", "05-conta-bancaria-console-app\05-conta-bancaria-console-app.csproj", "{1C2330BF-0841-4490-ABF2-58B7275C50C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-clinica-web-app-mvc", "06-clinica-web-app-mvc\06-clinica-web-app-mvc.csproj", "{6EDF4615-A460-45B9-A357-97E1650A2F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-entity-framework-web-app-mvc", "07-entity-framework-web-app-mvc\07-entity-framework-web-app-mvc.csproj", "{7DBDB248-2132-451F-B571-BF6E179FC7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-catalogo-web-api", "08-catalogo-web-api\08-catalogo-web-api.csproj", "{D85F3D81-4ABF-404B-95A0-C83315CFBC80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{1C2330BF-0841-4490-ABF2-58B7275C50C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2330BF-0841-4490-ABF2-58B7275C50C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2330BF-0841-4490-ABF2-58B7275C50C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDF4615-A460-45B9-A357-97E1650A2F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDF4615-A460-45B9-A357-97E1650A2F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDF4615-A460-45B9-A357-97E1650A2F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDF4615-A460-45B9-A357-97E1650A2F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBDB248-2132-451F-B571-BF6E179FC7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBDB248-2132-451F-B571-BF6E179FC7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBDB248-2132-451F-B571-BF6E179FC7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBDB248-2132-451F-B571-BF6E179FC7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85F3D81-4ABF-404B-95A0-C83315CFBC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85F3D81-4ABF-404B-95A0-C83315CFBC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85F3D81-4ABF-404B-95A0-C83315CFBC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85F3D81-4ABF-404B-95A0-C83315CFBC80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

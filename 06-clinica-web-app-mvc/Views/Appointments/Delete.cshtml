@@ -1,0 +1,47 @@
+@model Appointment
+
+@{
+    ViewBag.Title = "Deletar Agendamento";
+    Layout = "_Layout";
+}
+
+<form class="d-grid gap-3 mx-auto w-50" asp-action="Delete">
+    <h2>@ViewBag.Title</h2>
+    <div class="row">
+        <div class="col-12">
+            <label class="control-label" asp-for="Customer">@Html.DisplayNameFor(c => c.Customer)</label>
+            <input class="form-control" asp-for="Customer" type="text" disabled required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <label class="control-label" asp-for="Professional">@Html.DisplayNameFor(c => c.Professional)</label>
+            <input class="form-control" asp-for="Professional" type="text" disabled required/>
+        </div>
+        <div class="col-6">
+            <label class="control-label" asp-for="FieldOfStudy">@Html.DisplayNameFor(c => c.FieldOfStudy)</label>
+            <input class="form-control" asp-for="FieldOfStudy" type="text" disabled required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label class="control-label" asp-for="ScheduledTime">@Html.DisplayNameFor(c => c.ScheduledTime)</label>
+            <input class="form-control" asp-for="ScheduledTime" type="date" disabled required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label class="control-label" asp-for="Procedure">@Html.DisplayNameFor(c => c.Procedure)</label>
+            <input class="form-control" asp-for="Procedure" type="text" disabled required/>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-8">
+            <input class="form-control btn btn-outline-danger" type="submit"/>
+        </div>
+        <div class="col-4">
+            <a class="btn btn-outline-warning w-100" role="button" asp-action="Index"> Voltar </a>
+        </div>
+    </div>
+</form>

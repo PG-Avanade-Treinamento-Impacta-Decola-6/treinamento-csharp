@@ -1,0 +1,39 @@
+@model IEnumerable<Appointment>
+
+@{
+    ViewBag.Title = "Consultas";
+    Layout = "_Layout";
+}
+
+<h2>@ViewBag.Title</h2>
+<a class="btn btn-outline-primary" asp-action="Create">Adicionar Novo Registro</a>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th> @Html.DisplayNameFor(a => a.Id) </th>
+        <th> @Html.DisplayNameFor(a => a.Customer) </th>
+        <th> @Html.DisplayNameFor(a => a.Professional) </th>
+        <th> @Html.DisplayNameFor(a => a.FieldOfStudy) </th>
+        <th> @Html.DisplayNameFor(a => a.Procedure) </th>
+        <th> @Html.DisplayNameFor(a => a.ScheduledTime) </th>
+        <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var a in Model)
+    {
+        <tr>
+            <td> @a.Id </td>
+            <td> @a.Customer </td>
+            <td> @a.Professional </td>
+            <td> @a.FieldOfStudy </td>
+            <td> @a.Procedure </td>
+            <td> @a.ScheduledTime </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@a.Id" class="btn btn-primary">Editar</a>
+                <a asp-action="Delete" asp-route-id="@a.Id" class="btn btn-danger">Deletar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

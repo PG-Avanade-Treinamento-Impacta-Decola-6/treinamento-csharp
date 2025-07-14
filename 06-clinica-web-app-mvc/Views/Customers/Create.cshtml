@@ -1,0 +1,18 @@
+@model Customer
+
+@{
+    ViewBag.Title = "Novo Cliente";
+    Layout = "_Layout";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="Create">
+    <label class="control-label" asp-for="Name">@Html.DisplayTextFor(c => c.Name) </label>
+    <input class="form-control" asp-for="Name" type="text" required/>
+
+    <label class="control-label" asp-for="BirthDate">@Html.DisplayTextFor(c => c.BirthDate) </label>
+    <input class="form-control" asp-for="BirthDate" type="date" required/>
+
+    <input class="form-control" type="submit"/>
+</form>
