@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace _10_library_web_api.Repository;
 
-public class BooksRepository(AppDbContext dbContext) : BaseRepository<Book>(dbContext)
+public class BooksRepository(AppDbContext dbContext) : BaseCrudRepository<Book>(dbContext)
 {
     public ICollection<Book> GetAllWithAuthors() => dbContext.Books.Include(a => a.Author).ToList();
     
