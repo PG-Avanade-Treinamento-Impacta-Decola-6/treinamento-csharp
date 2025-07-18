@@ -1,6 +1,6 @@
 namespace _10_library_web_api.Repository;
 
-public interface IRepository<TEntity> where TEntity : class
+public interface ICrudRepository<TEntity> where TEntity : class
 {
     ICollection<TEntity> GetAll();
     TEntity? GetById(int id);

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("10-library-web-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3428dfbed6ca28cff67fadb0f30e20e47d366422")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eacba1ad59b00bb53362d43a9f0f5388a0b699ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("10-library-web-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("10-library-web-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,7 +2,7 @@ using _10_library_web_api.Data;
 
 namespace _10_library_web_api.Repository;
 
-public class BaseCrudRepository<TEntity>(AppDbContext dbContext) : ICrudRepository<TEntity> where TEntity : class
+public class CrudRepository<TEntity>(AppDbContext dbContext) : ICrudRepository<TEntity> where TEntity : class
 {
     public ICollection<TEntity> GetAll() => dbContext.Set<TEntity>().ToList();
 
